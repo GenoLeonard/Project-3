@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #70002e;
     color: #fff;
     padding: 1em 0;
 }
@@ -33,7 +33,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #ED8B00;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -45,7 +45,7 @@ footer {
 .social-media-links a {
     display: inline-block;
     margin: 0 1em;
-    color: #333;
+    color: #ED8B00;
     text-decoration: none;
 }
 
