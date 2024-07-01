@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #70002e;
     color: #fff;
     padding: 1em 0;
 }
@@ -34,8 +34,13 @@ nav ul li a {
 
 .sidebar {
     width: 250px;
-    background-color: #70002e;
+    background-color: #ED8B00;
     padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .sidebar h2 {
@@ -53,16 +58,17 @@ nav ul li a {
 
 .sidebar ul li a {
     text-decoration: none;
-    color: #BBDDE6;
+    color: #F9423A;
 }
 
 .content {
     flex: 1;
     padding: 2em;
+    margin-left: 250px;
 }
 
 footer {
-    background-color: #ED8B00;
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -85,7 +91,7 @@ footer {
     display: block;
     margin: 1em auto;
     max-width: 100%;
-    width: 300px; 
+    width: 300px;
     height: auto;
     border-radius: 8px;
 }
